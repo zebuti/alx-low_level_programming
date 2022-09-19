@@ -12,7 +12,7 @@ int i, j, k, temp;
 i=0;
 while (s[i] != '\0')
 {
- i++;
+i++;
 }
 k=0;
 j=i-1;
