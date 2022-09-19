@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * _strlen - this function change the initial.
 *
