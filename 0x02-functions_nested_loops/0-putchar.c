@@ -1,15 +1,18 @@
 #include "main.h"
-
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: 0
+ * Return: Alway 0 (Sucess)
  */
-int main(_putchar)
-{
-	char *main;
 
-	for (main = "mai\n"; *main != '\0'; ++main)
-		_putchar(*main);
+int main(void)
+{
+	char *h = "main\n";
+
+	while (*h)
+	{
+		_putchar(*h);
+		h++;
+	}
 	return (0);
 }
