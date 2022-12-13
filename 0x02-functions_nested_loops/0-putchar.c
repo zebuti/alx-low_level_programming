@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * main -print _putchar
- *
+ * main - print _putchar
+ * is written by bwave
  * Return: Alway 0 (Sucess)
  */
 
-int _putchar(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
