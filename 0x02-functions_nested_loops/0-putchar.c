@@ -5,14 +5,13 @@
  * Return: Alway 0 (Sucess)
  */
 
-int main(_putchar)
-{
-	char *h = "main\n";
+int _putchar(void)
+	char *m = "main\n";
 
-	while (*h)
+	while (*m)
 	{
-		_putchar(*h);
-		h++;
+		_putchar(*m);
+		m++;
 	}
 	return (0);
 }
