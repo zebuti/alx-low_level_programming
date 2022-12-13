@@ -5,7 +5,7 @@
  * Return: Alway 0 (Sucess)
  */
 
-int main(void)
+int main(_putchar)
 {
 	char *h = "main\n";
 
