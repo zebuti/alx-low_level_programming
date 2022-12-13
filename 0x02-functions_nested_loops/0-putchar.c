@@ -1,17 +1,15 @@
 #include "main.h"
 
 /**
-  * main - Entry point
-  *
-  * Return: Always 0
-  */
-int _putchar(void)
+ * main - entry point
+ *
+ * Return: 0
+ */
+int main(_putchar)
 {
-	_putchar('m');
-	_putchar('a');
-	_putchar('i');
-	_putchar('n');
-	_putchar('\n');
+	char *main;
 
+	for (main = "mai\n"; *main != '\0'; ++main)
+		_putchar(*main);
 	return (0);
 }
