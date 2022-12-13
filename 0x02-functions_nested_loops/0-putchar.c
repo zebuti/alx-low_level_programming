@@ -1,4 +1,4 @@
-#include "studio.h"
+#include "main.h"
 /**
  * main - print _putchar
  * is written by bwave
@@ -7,8 +7,8 @@
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
+        _putchar('_');
+        _putchar('p');
 	_putchar('u');
 	_putchar('t');
 	_putchar('c');
