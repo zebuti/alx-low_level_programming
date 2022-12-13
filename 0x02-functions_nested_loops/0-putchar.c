@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* main - main func
+* main - prints _putchar
 * Return: 0 success
 */
 int main(void)
