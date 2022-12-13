@@ -1,4 +1,4 @@
-#include "main.h"
+#include "studio.h"
 /**
  * main - print _putchar
  * is written by bwave
