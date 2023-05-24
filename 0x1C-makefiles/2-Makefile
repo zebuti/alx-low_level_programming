@@ -3,7 +3,7 @@ CC = gcc
 SRC = main.c holberton.c
 
 OBJ = $(SRC:%.c=%.o)
-NAME = holberton
+NAME = school
 
 %.o: %.c m.h
 	# put the output to the left
